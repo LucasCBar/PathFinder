@@ -42,3 +42,46 @@ h(n) = |x_atual - x_final| + |y_atual - y_final|
 
 3. Para rodar os testes:
    python -m unittest tests/test_pathfinder.py
+
+## 📁 Estrutura do Projeto
+
+pathfinder-a-star/
+├── src/
+│   └── pathfinder.py           # Algoritmo A*
+├── tests/
+│   └── test_pathfinder.py      # Testes automatizados
+├── data/
+│   └── maze1.txt               # Exemplo de entrada (opcional)
+├── main.py                     # Script de execução
+├── README.md                   # Documentação
+├── requirements.txt            # Bibliotecas usadas (se houver)
+└── .gitignore                  # Git ignore padrão
+
+## 📌 Requisitos
+
+- Python 3.8+
+- Nenhuma biblioteca externa obrigatória
+
+## ✅ Funcionalidades
+
+- Leitura de matriz do labirinto
+- Validação de pontos `S` e `E`
+- Busca com A*
+- Saída do caminho em coordenadas
+- Testes automatizados
+
+## 🎯 Extras sugeridos (não implementados, mas possíveis)
+
+- Movimentos diagonais (custo √2)
+- Interface gráfica (com pygame)
+- Terrenos com pesos diferentes
+
+## 👨‍💻 Autores
+
+- Alberto Júnior
+- Otávio Mendes
+- Lucas de Carvalho Barbosa
+
+---
+
+Projeto desenvolvido para a disciplina **Fundamentos de Projeto e Análise de Algoritmos** - PUC Minas
